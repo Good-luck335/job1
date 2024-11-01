@@ -1,0 +1,2681 @@
+---------------------------------------------------------------
+[ 2023-01-05T12:15:54+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.038348s] [吞吐率：26.08req/s] [内存消耗：3,293.58kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001437s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:54+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.037282s] [吞吐率：26.82req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:54+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.037644s] [吞吐率：26.56req/s] [内存消耗：3,293.56kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:54+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.036678s] [吞吐率：27.26req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:55+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.037695s] [吞吐率：26.53req/s] [内存消耗：3,293.56kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:55+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.037220s] [吞吐率：26.87req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:55+08:00 ] 182.132.137.126 GET 2.mlym.top/website/substation/index.html
+[运行时间：0.038505s] [吞吐率：25.97req/s] [内存消耗：4,022.73kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'substation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Substation->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Substation.php ]
+[ info ] [ VIEW ] template/website/substation/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => 's',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) ORDER BY `su_id` ASC LIMIT 0,20 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT COUNT(wxg_id) AS tp_count FROM `web_wxgroup` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where DATE_FORMAT(dkl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and su_id = 11 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where su_id = 11 [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:57+08:00 ] 182.132.137.126 GET 2.mlym.top/website/substation/index.html
+[运行时间：0.039683s] [吞吐率：25.20req/s] [内存消耗：4,023.29kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'substation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Substation->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Substation.php ]
+[ info ] [ VIEW ] template/website/substation/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => 's',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) ORDER BY `su_id` ASC LIMIT 0,20 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT COUNT(wxg_id) AS tp_count FROM `web_wxgroup` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where DATE_FORMAT(dkl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and su_id = 11 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where su_id = 11 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:57+08:00 ] 182.132.137.126 GET 2.mlym.top/website/substation/index.html
+[运行时间：0.039345s] [吞吐率：25.42req/s] [内存消耗：4,023.29kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'substation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Substation->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Substation.php ]
+[ info ] [ VIEW ] template/website/substation/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => 's',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) ORDER BY `su_id` ASC LIMIT 0,20 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT COUNT(wxg_id) AS tp_count FROM `web_wxgroup` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where DATE_FORMAT(dkl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and su_id = 11 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where su_id = 11 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:15:57+08:00 ] 182.132.137.126 GET 2.mlym.top/website/substation/index.html
+[运行时间：0.041015s] [吞吐率：24.38req/s] [内存消耗：4,023.29kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'substation',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Substation->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Substation.php ]
+[ info ] [ VIEW ] template/website/substation/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => 's',
+  3 => 'page',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000446s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` `s` INNER JOIN `web_substation_group` `sg` ON `sg`.`su_g_id`=`s`.`su_g_id` WHERE  (  1=1 ) ORDER BY `su_id` ASC LIMIT 0,20 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_wxgroup` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT COUNT(wxg_id) AS tp_count FROM `web_wxgroup` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where DATE_FORMAT(dkl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and su_id = 11 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT sum(dkl_money) as zj FROM `web_dianka_log` where su_id = 11 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:02+08:00 ] 182.132.137.126 GET 2.mlym.top/substation.php/index/login_admin/username/mengling/password/123456.html
+[运行时间：0.024979s] [吞吐率：40.03req/s] [内存消耗：3,461.88kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'substation',
+    1 => 'index',
+    2 => 'login_admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'mengling',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\substation\controller\Index->login_admin[ /www/wwwroot/2.mlym.top/application/substation/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_name = 'mengling' and su_pass = '123456' ) LIMIT 1 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:02+08:00 ] 182.132.137.126 GET 2.mlym.top/substation.php/center/index.html
+[运行时间：0.030445s] [吞吐率：32.85req/s] [内存消耗：3,783.67kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'substation',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\substation\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/substation/controller/Center.php ]
+[ info ] [ VIEW ] template/substation/center/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'fzinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:02+08:00 ] 182.132.137.126 GET 2.mlym.top/substation.php/center/home.html
+[运行时间：0.042872s] [吞吐率：23.33req/s] [内存消耗：3,773.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'substation',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/substation.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\substation\controller\Center->home[ /www/wwwroot/2.mlym.top/application/substation/controller/Center.php ]
+[ info ] [ VIEW ] template/substation/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'fzinfo',
+  3 => 'd_money_count',
+  4 => 'd_bill_count',
+  5 => 'd_user_count',
+  6 => 'z_money_count',
+  7 => 'z_bill_count',
+  8 => 'z_user_count',
+  9 => 'qmoney',
+  10 => 'fswtsmoney',
+  11 => 'dtxmoney',
+  12 => 'info',
+  13 => 'timg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 ) LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  su_id = 11 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  su_id = 11 and bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT SUM(bl_substationmoney) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 ) LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT SUM(du_money) AS tp_sum FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution_tixian` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT SUM(dt_money) AS tp_sum FROM `web_distribution_tixian` WHERE  (  dt_status = 1 and su_id = 11 ) LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:10+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.036874s] [吞吐率：27.12req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:10+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.037266s] [吞吐率：26.83req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:10+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.037133s] [吞吐率：26.93req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:11+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.037318s] [吞吐率：26.80req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000343s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:11+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.037166s] [吞吐率：26.91req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:11+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.037626s] [吞吐率：26.58req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:11+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.037306s] [吞吐率：26.81req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:11+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.036522s] [吞吐率：27.38req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:17+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.037051s] [吞吐率：26.99req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:17+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.039692s] [吞吐率：25.19req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:17+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.036780s] [吞吐率：27.19req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:17+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.036712s] [吞吐率：27.24req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:17+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.036819s] [吞吐率：27.16req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:17+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.036671s] [吞吐率：27.27req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:16:29+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.013608s] [吞吐率：73.49req/s] [内存消耗：1,789.75kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6308011a)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:31+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.013977s] [吞吐率：71.55req/s] [内存消耗：1,790.13kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6308011a)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'cookie' => 'PHPSESSID=67j1d9kib292ia5a979ide3rq7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:32+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.013441s] [吞吐率：74.40req/s] [内存消耗：1,790.13kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6308011a)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'cookie' => 'PHPSESSID=67j1d9kib292ia5a979ide3rq7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:33+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.013424s] [吞吐率：74.49req/s] [内存消耗：1,790.13kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6308011a)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'cookie' => 'PHPSESSID=67j1d9kib292ia5a979ide3rq7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:37+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.013628s] [吞吐率：73.38req/s] [内存消耗：1,789.63kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6308011a)',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'cookie' => 'PHPSESSID=67j1d9kib292ia5a979ide3rq7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:42+08:00 ] 182.132.137.126 GET 2.mlym.top/
+[运行时间：0.016522s] [吞吐率：60.53req/s] [内存消耗：2,071.20kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672727770,1672798304,1672882525,1672890013; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672892178',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:42+08:00 ] 182.132.137.126 GET 2.mlym.top/favicon.ico
+[运行时间：0.027475s] [吞吐率：36.40req/s] [内存消耗：1,431.44kb] [文件加载：28]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0',
+  'accept' => 'image/avif,image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://2.mlym.top/',
+  'cookie' => 'Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672727770,1672798304,1672882525,1672890013; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672892178',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:44+08:00 ] 182.132.137.126 GET 2.mlym.top/
+[运行时间：0.017008s] [吞吐率：58.80req/s] [内存消耗：2,071.20kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672727770,1672798304,1672882525,1672890013; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672892178',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:45+08:00 ] 182.132.137.126 GET 2.mlym.top/
+[运行时间：0.017140s] [吞吐率：58.34req/s] [内存消耗：2,071.20kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672727770,1672798304,1672882525,1672890013; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672892178',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:16:45+08:00 ] 182.132.137.126 GET 2.mlym.top/
+[运行时间：0.016899s] [吞吐率：59.18req/s] [内存消耗：2,071.20kb] [文件加载：39]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672727770,1672798304,1672882525,1672890013; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672892178',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Index->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Index.php ]
+[ info ] [ VIEW ] template/website/index/index.html [ array (
+  0 => 'subweb',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:17:26+08:00 ] 180.163.29.206 GET 2.mlym.top/website/center/index.html
+[运行时间：0.013840s] [吞吐率：72.25req/s] [内存消耗：1,788.53kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:19:09+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.022368s] [吞吐率：44.71req/s] [内存消耗：2,891.28kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'mlym.top'@'localhost' (using password: YES)[/www/wwwroot/2.mlym.top/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2023-01-05T12:19:32+08:00 ] 59.83.208.104 GET 2.mlym.top/website/substation/edit/id/11.html
+[运行时间：0.013680s] [吞吐率：73.10req/s] [内存消耗：1,818.59kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'substation',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '11',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:19:34+08:00 ] 180.101.244.16 GET 2.mlym.top/website/center/index.html
+[运行时间：0.013366s] [吞吐率：74.82req/s] [内存消耗：1,790.16kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'referer' => 'http://2.mlym.top/',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-01-05T12:19:35+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/index.html
+[运行时间：0.036697s] [吞吐率：27.25req/s] [内存消耗：3,294.47kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\website\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ VIEW ] template/website/center/index.html [ array (
+  0 => 'subweb',
+  1 => '__APS__',
+  2 => '__NAV__',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_group_access` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `web_auth_group_access` `AuthGroupAccess` LEFT JOIN `web_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='4' and AuthGroup.status='1' ) [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_auth_rule` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `web_auth_rule` WHERE  `id` IN (21,209,210,211,194,195,196,197,204,219,205,206,207,213,215,214,217,218,221,223,224,225,199,200,202,201,7,75,80,82,8,12,11,14,17,19,18,144,81,22,23,25,24,26,27,28,140,141,142,143)  AND `type` = 1  AND `status` = 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `web_auth_group_access` WHERE  `uid` = 4 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_group` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `ns_id` FROM `web_navigat_group` WHERE  `group_id` IN (1) [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_navigat_show` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_id` IN (22,23,24,25,33,34,35,36,37,38,39,40)  AND `ns_status` = 1  AND `sns_id` = 0 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 33 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 34 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 35 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 36 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 37 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 38 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 39 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 40 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 24 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 23 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 25 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `web_navigat_show` WHERE  `ns_status` = 1  AND `sns_id` = 22 ORDER BY `ns_status` DESC,`ns_sort` ASC [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:19:35+08:00 ] 182.132.137.126 GET 2.mlym.top/website/center/home.html
+[运行时间：0.037061s] [吞吐率：26.98req/s] [内存消耗：3,144.60kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'website',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\website\controller\Center->home[ /www/wwwroot/2.mlym.top/application/website/controller/Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] template/website/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'timg',
+  2 => 'bill_day',
+  3 => 'bill_week',
+  4 => 'bill_moon',
+  5 => 'bill_z',
+  6 => 'd_money_count',
+  7 => 'd_bill_count',
+  8 => 'd_user_count',
+  9 => 'z_money_count',
+  10 => 'z_bill_count',
+  11 => 'z_user_count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 ) LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 ) LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  1=1 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where to_days(b.bl_addtime) = to_days(now()) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(b.bl_addtime) and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where DATE_FORMAT(b.bl_addtime,'%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') and b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT s.*,sum(b.bl_money) as zj FROM `web_bill` as b INNER JOIN `web_substation` as s on s.su_id = b.su_id where b.bl_status = 2 group by b.su_id order by zj desc limit 10 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:19:36+08:00 ] 182.132.137.126 GET 2.mlym.top/substation.php/center/index.html
+[运行时间：0.030600s] [吞吐率：32.68req/s] [内存消耗：3,783.60kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'substation',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\substation\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/substation/controller/Center.php ]
+[ info ] [ VIEW ] template/substation/center/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'fzinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:19:37+08:00 ] 182.132.137.126 GET 2.mlym.top/substation.php/center/home.html
+[运行时间：0.043018s] [吞吐率：23.25req/s] [内存消耗：3,773.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'substation',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/substation.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\substation\controller\Center->home[ /www/wwwroot/2.mlym.top/application/substation/controller/Center.php ]
+[ info ] [ VIEW ] template/substation/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'fzinfo',
+  3 => 'd_money_count',
+  4 => 'd_bill_count',
+  5 => 'd_user_count',
+  6 => 'z_money_count',
+  7 => 'z_bill_count',
+  8 => 'z_user_count',
+  9 => 'qmoney',
+  10 => 'fswtsmoney',
+  11 => 'dtxmoney',
+  12 => 'info',
+  13 => 'timg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 ) LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  su_id = 11 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  su_id = 11 and bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT SUM(bl_substationmoney) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 ) LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT SUM(du_money) AS tp_sum FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution_tixian` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT SUM(dt_money) AS tp_sum FROM `web_distribution_tixian` WHERE  (  dt_status = 1 and su_id = 11 ) LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:19:37+08:00 ] 182.132.137.126 GET 2.mlym.top/substation.php/center/index.html
+[运行时间：0.030386s] [吞吐率：32.91req/s] [内存消耗：3,783.60kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'substation',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/website/substation/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\substation\controller\Center->Index[ /www/wwwroot/2.mlym.top/application/substation/controller/Center.php ]
+[ info ] [ VIEW ] template/substation/center/index.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'fzinfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2023-01-05T12:19:37+08:00 ] 182.132.137.126 GET 2.mlym.top/substation.php/center/home.html
+[运行时间：0.043205s] [吞吐率：23.15req/s] [内存消耗：3,773.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/2.mlym.top/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'substation',
+    1 => 'center',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '2.mlym.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://2.mlym.top/substation.php/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'acc_f5qve8vrkfu13rhhv91oijgau1=f5qve8vrkfu13rhhv91oijgau1; acc_uid=738; acc_uid_ymkv=b6e9afc7e2c4a0b245d8bfd6; Hm_lvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672711429,1672813405,1672817764,1672882610; Hm_lpvt_ad8ac70b49d7cdfce6ee9f5871cb9945=1672890757; PHPSESSID=p24ulcadu1u1gtvb9m0va97n02',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\substation\controller\Center->home[ /www/wwwroot/2.mlym.top/application/substation/controller/Center.php ]
+[ info ] [ VIEW ] template/substation/center/home.html [ array (
+  0 => 'subweb',
+  1 => 'webinfo',
+  2 => 'fzinfo',
+  3 => 'd_money_count',
+  4 => 'd_bill_count',
+  5 => 'd_user_count',
+  6 => 'z_money_count',
+  7 => 'z_bill_count',
+  8 => 'z_user_count',
+  9 => 'qmoney',
+  10 => 'fswtsmoney',
+  11 => 'dtxmoney',
+  12 => 'info',
+  13 => 'timg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;dbname=fufeiruqun;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_setup` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT * FROM `web_setup` WHERE  (  1 = 1 ) LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_substation` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_bill` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 ) LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  su_id = 11 and bl_status = 2 ) LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  su_id = 11 and bl_status = 2 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT COUNT(du_id) AS tp_count FROM `web_distribution` WHERE  (  su_id = 11 )  AND `du_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT SUM(bl_substationmoney) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 ) LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT SUM(du_money) AS tp_sum FROM `web_distribution` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `web_distribution_tixian` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT SUM(dt_money) AS tp_sum FROM `web_distribution_tixian` WHERE  (  dt_status = 1 and su_id = 11 ) LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `web_substation` WHERE  (  su_id = 11 ) LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-30 00:00:00' AND '2022-12-31 00:00:00' LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2022-12-31 00:00:00' AND '2023-01-01 00:00:00' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-01 00:00:00' AND '2023-01-02 00:00:00' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-02 00:00:00' AND '2023-01-03 00:00:00' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-03 00:00:00' AND '2023-01-04 00:00:00' LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-04 00:00:00' AND '2023-01-05 00:00:00' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT SUM(bl_money) AS tp_sum FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT COUNT(bl_id) AS tp_count FROM `web_bill` WHERE  (  bl_status = 2 and su_id = 11 )  AND `bl_addtime` BETWEEN '2023-01-05 00:00:00' AND '2023-01-06 00:00:00' LIMIT 1 [ RunTime:0.000296s ]
